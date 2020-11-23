@@ -8,9 +8,9 @@ import scrapy
 from employment.settings import HEADERS
 
 
-class XkdmSpider(scrapy.Spider):
-    """第三轮学科评估"""
-    name = 'xkdm'
+class XkmdSpider(scrapy.Spider):
+    """学科名单"""
+    name = 'xkmd'
     allowed_domains = ['edu.cn']
     # start_urls可以设置多个
     start_urls = ['http://www.cdgdc.edu.cn/xwyyjsjyxx/sy/glmd/267001.shtml']
